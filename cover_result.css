@@ -9,6 +9,21 @@ a:hover {
   color: black;
 }
 
+.list-group li:nth-child(1){
+  border: 0 none;
+}
+.list-group li:nth-child(2){
+  border: 0 none;
+}
+.list-group li:nth-child(3){
+  border: 0 none;
+}
+.list-group li:nth-child(4){
+  border: 0 none;
+}
+.list-group li:nth-child(5){
+  border: 0 none;
+}
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -31,8 +46,7 @@ a:hover {
 .edema-percent {
   text-align: right; /* Right-align text */
   line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-  color: white; /* White text color */
-  width: 30%;
+  width: 65%;
 }
 
 
@@ -132,4 +146,47 @@ border: 1px solid #ffd2d1;
   .chart .percent {
     font-size: 18px;
   }
+}
+
+
+
+
+/*.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+}*/
+
+
+.parent {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    /*width: 597px;
+    height: 405px;*/
+    background-image: url(img/main_bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.image2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    display: block;
+    margin: auto;
 }
